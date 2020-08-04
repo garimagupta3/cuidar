@@ -33,7 +33,7 @@ public class CovidApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        System.out.println("test webhook");
+        System.out.println("test webhook 1");
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         }
