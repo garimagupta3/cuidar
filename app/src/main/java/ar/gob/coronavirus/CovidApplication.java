@@ -39,7 +39,7 @@ public class CovidApplication extends Application {
         }
 
         Thread.setDefaultUncaughtExceptionHandler((thread, e) -> manejadorDeExcepciones(e));
-        System.out.println("fixed issue check");
+       
         sharedUtils = new SharedUtils(this);
 
         createAllNotificationsChannels();
